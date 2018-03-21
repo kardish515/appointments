@@ -9,7 +9,7 @@ $(document).ready(function(){
     var description1 = $("#description1").val();
     var date1 = $("#date1").val();
     var startEndTime1 = $("#startEndTime1").val();
-    alert(name1 + description1 + date1 + startEndTime1);
+    console.log(name1 + description1 + date1 + startEndTime1);
+    window.location.href = "file:///Users/Guest/desktop/appointments/success.html";
   });
-
 });
